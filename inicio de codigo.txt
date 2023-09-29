@@ -1,0 +1,91 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+<!-- Required meta tags -->
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ 
+
+<!-- Bootstrap CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+ 
+
+<title>Hello, world!</title>
+
+</head>
+
+<body>
+
+<h1>Hello, world!</h1>
+
+ 
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+ 
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+ 
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+
+<!--
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+-->
+
+</body>
+
+</html>
+
+
+Antes de comenzar a diseñar el layout o estructura de contenidos de las páginas, es necesario tener en cuenta algunas cosas importantes.
+
+ 
+
+Se requiere el doctype de HTML5
+
+Bootstrap utiliza algunos elementos HTML y algunas propiedades CSS que requieren el uso del doctype de HTML5. No olvides incluir este doctype en todas tus páginas con el siguiente código:
+
+ 
+
+<!doctype html>
+
+<html lang="en">
+
+...
+
+</html>
+
+ 
+
+Diseño "responsive"
+
+Bootstrap promueve el diseño de tipo "mobile first", en el que primero se diseñan los contenidos para que se vean bien en un móvil y luego se hacen los ajustes necesarios para que se vea bien en dispositivos más grandes como tablets y notebooks y computadoras de escritorio.
+
+ 
+
+Añade la siguiente etiqueta <meta> para que los contenidos se vean bien por defecto en los móviles y el zoom funcione como esperan los usuarios:
+
+
+<head>
+
+<!-- ... -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>

@@ -1,0 +1,92 @@
+body{
+    background-color: #fff;
+}
+
+.flexcontainer{
+    height: 600px;
+    background-color:#f0f2f5;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cuadrouno{
+    width: 550px;
+    height: 350px;
+    margin-right: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+#cuadrouno h1{
+    color: #1877f2;
+    font-size: 65px;
+    top:50px
+    left: 25px;
+    position: relative
+
+}
+
+h2{
+    margin-top: 0px ;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+#cuadrodos{
+    width: 400px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: -10px 10px 10px -5px #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: solid 1px #ccc ;
+}
+
+input{
+    margin: 5px;
+    height: 52px;
+    border: solid 1px #ccc;
+}
+
+#nuevacuenta{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+h5{
+    color: #1877f2;
+}
+
+#login{
+    background-color: #0d65d9;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    height: 50px;
+}
+
+#account{
+    background-color: #42b72a;
+    border: solid 1px #ccc;
+    color: #fff;
+    border-radius: 5px;
+    width: 190px;
+    height: 50px;
+}
+
+#account:hover{
+    background-color: #2f7c1f;
+    border: solid 1px #ccc;
+
+}
